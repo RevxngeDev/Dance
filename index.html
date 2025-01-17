@@ -71,7 +71,7 @@
         <input type="password" id="nameInput" placeholder="Write here..." />
         <button id="verifyButton">Verify</button>
         <div class="message" id="errorMessage"></div>
-        <img src="../img/caritaFeliz.jpg" alt="caritaFeliz" width="200 px"/>
+        <img src="/img/caritaFeliz.jpg" alt="caritaFeliz" width="200 px"/>
     </div>
 
     <script>
@@ -82,7 +82,7 @@
 
             if (input === correctName) {
                 // Redirige a la siguiente página
-                window.location.href = 'mainPage.html'; // Cambia esto a la URL de tu segunda página
+                window.location.href = 'html/mainPage.html'; // Cambia esto a la URL de tu segunda página
             } else {
                 errorMessage.textContent = "Are you Olya or Who are you?";
             }
